@@ -1,5 +1,5 @@
 {
-  description = "@niccolozanotti's nix-darwin system flake";
+  description = "@niccolozanotti's AppleSilicon mac nix-darwin system flake";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
