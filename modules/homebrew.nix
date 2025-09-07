@@ -3,24 +3,47 @@
     enable = true;
     brews = [
       "llvm"
+      "clang-format"
       "libomp"
       "flang"
       "urlview"
-      "bitwarden-cli" # while nixpkg is broken
+      "bitwarden-cli" # equivalent nixpkg is broken
       "ford"
+      "luarocks"
+      "arduino-cli"
     ];
     casks = [
+      "bitwarden" #desktop
+      # Terminal
+      "wezterm"
+      "visual-studio-code"
+      # Notes/Research
+      "obsidian"
+      "zotero"
+      # Window tiling manager
+      "rectangle"
+      "zoom"
+      "slack"
+      # Microsoft sh t
       "microsoft-word"
       "microsoft-excel"
+      # LLMS
       "claude"
       "whatsapp"
+      # VPN
       "nordvpn"
+      # Browsers
+      "brave-browser"
       "tor-browser"
       "proton-pass"
+      # email
       "proton-mail-bridge"
+      "thunderbird"
+      # Containers
       "docker-desktop"
+      # Cloud
       "megasync"
-      "passepartout"
+      # OS image
       "balenaetcher"
       "raspberry-pi-imager"
     ];

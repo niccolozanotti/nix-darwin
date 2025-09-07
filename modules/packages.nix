@@ -21,34 +21,32 @@
     pkgs.vim
     pkgs.neovim
     pkgs.ripgrep
-    pkgs.vscode
     # C/C++/Fortran compiler toolchain
     pkgs.gcc14
     pkgs.gfortran14
     pkgs.cmake
     pkgs.fortran-fpm
+    # Zig
+    pkgs.zig
+    # go
+    pkgs.go
     # python
     pkgs.python313
     pkgs.uv
+    # lua
+    pkgs.lua
     # Language Servers
     pkgs.fortls
     pkgs.lua-language-server
     pkgs.pyright
     pkgs.cmake-language-server
     pkgs.nil
-    # Terminal emulator
-    pkgs.wezterm
-    pkgs.alacritty
+    pkgs.zls
     # Terminal multiplexer
     pkgs.tmux
-    # Window tiling manager
-    pkgs.rectangle
     # cli password manager
     pkgs.pass
-    pkgs.bitwarden-desktop
-    # pkgs.bitwarden-cli # currently broken; using brew formula
     # Browsing
-    pkgs.brave
     pkgs.librewolf
     # email
     pkgs.neomutt
@@ -57,7 +55,6 @@
     pkgs.lynx
     pkgs.isync
     pkgs.msmtp
-    pkgs.thunderbird
     # Graph visualization tools
     pkgs.graphviz
     # Microsoft garbage software I am forced to use
@@ -66,21 +63,19 @@
     pkgs.ollama
     # .md, .qmd notes/notebooks
     pkgs.quarto
-    pkgs.obsidian
     # LaTeX
     pkgs.texliveSmall #if needed _Medium,_Full
     # Computer statistics utilities
     pkgs.mactop
     pkgs.fastfetch
-    # Team collab platforms
-    pkgs.slack
-    pkgs.zoom-us
     # Research/citations
     pkgs.zotero
     # VPN
     pkgs.wireguard-tools
     # Syncing
     pkgs.syncthing
+    # Static website generator
+    pkgs.hugo
     # Useful cmds
     pkgs.tree
     pkgs.wget
