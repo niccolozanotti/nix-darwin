@@ -27,6 +27,7 @@
       # Microsoft sh t
       "microsoft-word"
       "microsoft-excel"
+      "microsoft-teams"
       # LLMS
       "claude"
       "whatsapp"
@@ -34,6 +35,7 @@
       "nordvpn"
       # Browsers
       "brave-browser"
+      "librewolf"
       "tor-browser"
       "proton-pass"
       # email

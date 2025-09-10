@@ -66,7 +66,7 @@
     dock.persistent-apps = [
       "/System/Applications/Launchpad.app"
       "/Applications/Brave Browser.app"
-      "${pkgs.librewolf}/Applications/Librewolf.app"
+      "/Applications/Librewolf.app"
       "/Applications/WezTerm.app"
       "/Applications/Visual Studio Code.app"
       "/System/Applications/Mail.app"

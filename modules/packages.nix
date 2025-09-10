@@ -24,6 +24,7 @@
     # C/C++/Fortran compiler toolchain
     pkgs.gcc14
     pkgs.gfortran14
+    pkgs.gnumake
     pkgs.cmake
     pkgs.fortran-fpm
     # Zig
@@ -35,19 +36,26 @@
     pkgs.uv
     # lua
     pkgs.lua
-    # Language Servers
+    # Language Servers (used in nvim)
+    # Fortran
     pkgs.fortls
-    pkgs.lua-language-server
-    pkgs.pyright
+    # CMake
     pkgs.cmake-language-server
-    pkgs.nil
+    # Lua
+    pkgs.lua-language-server
+    # Python
+    pkgs.pyright
+    # Zig
     pkgs.zls
-    # Terminal multiplexer
+    # Bash with deps
+    pkgs.bash-language-server
+    pkgs.shellcheck
+    pkgs.shfmt
+    # Terminal/multiplexer
+    pkgs.xterm
     pkgs.tmux
     # cli password manager
     pkgs.pass
-    # Browsing
-    pkgs.librewolf
     # email
     pkgs.neomutt
     pkgs.abook
@@ -57,8 +65,6 @@
     pkgs.msmtp
     # Graph visualization tools
     pkgs.graphviz
-    # Microsoft garbage software I am forced to use
-    pkgs.teams
     # Local LLM inference interface
     pkgs.ollama
     # .md, .qmd notes/notebooks
