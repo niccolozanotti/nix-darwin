@@ -31,4 +31,10 @@
     enableFzfGit = true;
     enableFzfHistory = true;
   };
+# In the current setting, as dotfiles are not managed by nix, tmux source ~/
+  programs.tmux = {
+    enable = true;
+    enableFzf = true;
+  };
+
 }
