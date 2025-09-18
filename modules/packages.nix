@@ -47,6 +47,8 @@
     pkgs.pyright
     # Zig
     pkgs.zls
+    # Typst
+    pkgs.tinymist
     # Bash with deps
     pkgs.bash-language-server
     pkgs.shellcheck
@@ -69,7 +71,8 @@
     pkgs.ollama
     # .md, .qmd notes/notebooks
     pkgs.quarto
-    # LaTeX
+    # Typesetting programs
+    pkgs.typst
     pkgs.texliveSmall #if needed _Medium,_Full
     # Computer statistics utilities
     pkgs.mactop
@@ -82,6 +85,8 @@
     pkgs.syncthing
     # Static website generator
     pkgs.hugo
+    # sr.ht cli
+    pkgs.hut
     # Useful cmds
     pkgs.tree
     pkgs.wget

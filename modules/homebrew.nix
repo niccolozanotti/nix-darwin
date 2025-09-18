@@ -11,6 +11,7 @@
       "ford"
       "luarocks"
       "arduino-cli"
+      "dillo"
     ];
     casks = [
       "bitwarden" #desktop
@@ -20,10 +21,12 @@
       # Notes/Research
       "obsidian"
       "zotero"
+      "skim"
       # Window tiling manager
       "rectangle"
       "zoom"
       "slack"
+      "discord"
       # Microsoft sh t
       "microsoft-word"
       "microsoft-excel"
@@ -31,17 +34,18 @@
       # LLMS
       "claude"
       "whatsapp"
+      "telegram"
       # VPN
       "nordvpn"
       # Browsers
       "brave-browser"
       "librewolf"
       "tor-browser"
-      "proton-pass"
+      "vivaldi"
       # email
       "proton-mail-bridge"
-      "thunderbird"
       # Containers
+      "container"
       "docker-desktop"
       # Cloud
       "megasync"
@@ -53,7 +57,10 @@
       # Add Mac App Store apps here
       "Flighty" = 1358823008;
       "Wireguard" = 1451685025;
+      "HP" = 1474276998;
+      "Xcode" = 497799835;
       # "myUniBo" = 1468069187; # not working: from iPhone App Store
+      ## Proton Authenticator still not packaged
     };
     # onActivation.cleanup = "zap";
   };
