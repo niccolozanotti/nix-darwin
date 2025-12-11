@@ -64,9 +64,9 @@
       "Flighty" = 1358823008;
       "Wireguard" = 1451685025;
       "HP" = 1474276998;
+      "The Unarchiver" = 425424353;
       "Xcode" = 497799835;
-      # "myUniBo" = 1468069187; # not working: from iPhone App Store
-      ## Proton Authenticator still not packaged
+      #TODO Proton Authenticator yet to packaged
     };
     # onActivation.cleanup = "zap";
   };
