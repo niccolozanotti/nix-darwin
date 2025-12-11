@@ -11,10 +11,17 @@
       "ford"
       "luarocks"
       "arduino-cli"
-      "dillo"
+      "fpm"
     ];
     casks = [
+      # sshfs mount from remote server
+      "macfuse"
+      # audio loopback driver
+      "blackhole-64ch"
+      "obs"
       "bitwarden" #desktop
+      # arduino ide
+      "arduino-ide"
       # Terminal
       "wezterm"
       "visual-studio-code"
@@ -41,17 +48,16 @@
       "brave-browser"
       "librewolf"
       "tor-browser"
-      "vivaldi"
       # email
       "proton-mail-bridge"
-      # Containers
-      "container"
       "docker-desktop"
       # Cloud
       "megasync"
       # OS image
       "balenaetcher"
       "raspberry-pi-imager"
+      # OpenVPN client
+      "tunnelblick"
     ];
     masApps = {
       # Add Mac App Store apps here
