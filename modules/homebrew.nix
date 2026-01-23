@@ -52,6 +52,7 @@
       "proton-mail-bridge"
       "docker-desktop"
       # Cloud
+      "nextcloud"
       "megasync"
       # OS image
       "balenaetcher"
