@@ -7,6 +7,7 @@
     # GPG/SSH
     pkgs.openssh
     pkgs.sshpass
+    pkgs.expect
     pkgs.gnupg
     pkgs.pinentry_mac
     # git
@@ -20,7 +21,7 @@
     pkgs.zsh-fzf-tab
     # Vim/Neovim (with dependies for nvim distro)
     pkgs.vim
-    pkgs.neovim
+    # pkgs.neovim # in favor of nightly build
     pkgs.ripgrep
     # C/C++/Fortran compiler toolchain
     pkgs.gcc14
@@ -82,7 +83,7 @@
     pkgs.quarto
     # Typesetting programs
     pkgs.typst
-    pkgs.texliveMedium #if needed _Medium,_Full
+    pkgs.texliveFull
     # Computer statistics utilities
     pkgs.mactop
     pkgs.fastfetch
@@ -109,5 +110,7 @@
     pkgs.tree
     pkgs.wget
     pkgs.scc
+    pkgs.btop
+    pkgs.cloudflared
   ];
 }
