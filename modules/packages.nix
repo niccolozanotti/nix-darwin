@@ -12,6 +12,7 @@
     pkgs.pinentry_mac
     # git
     pkgs.git
+    pkgs.git-lfs
     pkgs.lazygit
     # Shell
     pkgs.fzf
@@ -21,6 +22,7 @@
     pkgs.zsh-fzf-tab
     # Vim/Neovim (with dependies for nvim distro)
     pkgs.vim
+    pkgs.emacs
     # pkgs.neovim # in favor of nightly build
     pkgs.ripgrep
     # C/C++/Fortran compiler toolchain
@@ -42,6 +44,7 @@
     # python
     pkgs.python313
     pkgs.uv
+    pkgs.ty
     # lua
     pkgs.lua
     # Language Servers (used in nvim)
@@ -77,7 +80,8 @@
     pkgs.aerc
     # Graph visualization tools
     pkgs.graphviz
-    # Local LLM inference interface
+    # AI tools
+    pkgs.opencode
     pkgs.ollama
     # .md, .qmd notes/notebooks
     pkgs.quarto
