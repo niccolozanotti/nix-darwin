@@ -3,6 +3,18 @@
   # Allow non open-source packages
   nixpkgs.config.allowUnfree = true;
 
+  # Override packages to use an older C standard for compatibility
+  nixpkgs.overlays = [
+    (final: prev: {
+      abook = prev.abook.overrideAttrs (oldAttrs: {
+        NIX_CFLAGS_COMPILE = (oldAttrs.NIX_CFLAGS_COMPILE or "") + " -std=gnu17";
+      });
+      dante = prev.dante.overrideAttrs (oldAttrs: {
+        NIX_CFLAGS_COMPILE = (oldAttrs.NIX_CFLAGS_COMPILE or "") + " -std=gnu17";
+      });
+    })
+  ];
+
   environment.systemPackages = [
     # GPG/SSH
     pkgs.openssh
@@ -69,9 +81,10 @@
     pkgs.tmux
     # cli password manager
     pkgs.pass
+    pkgs.gopass
     # email (neomutt + deps)
     pkgs.neomutt
-    pkgs.abook
+    # abook with overlay
     pkgs.notmuch
     pkgs.lynx
     pkgs.isync
@@ -82,14 +95,17 @@
     pkgs.graphviz
     # AI tools
     pkgs.opencode
-    pkgs.ollama
+    pkgs.codex
     # .md, .qmd notes/notebooks
     pkgs.quarto
     # Typesetting programs
     pkgs.typst
     pkgs.texliveFull
     # Computer statistics utilities
-    pkgs.mactop
+    # pkgs.mactop
+		(pkgs.mactop.overrideAttrs (old: {
+      doCheck = false;
+    }))
     pkgs.fastfetch
     # Research/citations
     pkgs.zotero
@@ -109,6 +125,8 @@
     # image/video handling
     pkgs.ffmpeg
     # encrypted backup
+    # speedtest
+    pkgs.ookla-speedtest
     pkgs.rclone
     # shell utilities
     pkgs.tree
