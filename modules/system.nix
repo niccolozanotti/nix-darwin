@@ -65,6 +65,7 @@
     dock.magnification = true;
     dock.persistent-apps = [
       "/System/Applications/Mail.app"
+      "/Users/niccolozanotti/Applications/Brave Browser Apps.localized/Proton Mail.app"
       "/System/Applications/Utilities/Terminal.app"
       "/Applications/WezTerm.app"
       "/Applications/Brave Browser.app"

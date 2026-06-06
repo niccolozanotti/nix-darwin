@@ -47,7 +47,6 @@
       "zen"
       "tor-browser"
       # email
-      "proton-mail-bridge"
       "docker-desktop"
       # Cloud
       "nextcloud"
