@@ -38,6 +38,8 @@
       "microsoft-teams"
       # LLMS
       "claude"
+      # Messagging
+      "whatsapp"
       "telegram"
       # VPN
       "nordvpn"
