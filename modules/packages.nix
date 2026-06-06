@@ -35,7 +35,7 @@
     # Vim/Neovim (with dependies for nvim distro)
     pkgs.vim
     pkgs.emacs
-    # pkgs.neovim # in favor of nightly build
+    pkgs.neovim
     pkgs.ripgrep
     # C/C++/Fortran compiler toolchain
     pkgs.gcc14
