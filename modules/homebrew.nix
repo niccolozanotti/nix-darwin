@@ -38,6 +38,7 @@
       "microsoft-teams"
       # LLMS
       "claude"
+      #"codex-app"
       # Messagging
       "whatsapp"
       "telegram"
@@ -52,6 +53,7 @@
       "docker-desktop"
       # Cloud
       "nextcloud"
+      "google-drive"
       "megasync"
       # OS image
       "balenaetcher"

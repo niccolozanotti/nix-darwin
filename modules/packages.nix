@@ -26,6 +26,8 @@
     pkgs.git
     pkgs.git-lfs
     pkgs.lazygit
+    # ai issue tracker
+    pkgs.beads
     # Shell
     pkgs.fzf
     pkgs.starship
@@ -96,6 +98,7 @@
     # AI tools
     pkgs.opencode
     pkgs.codex
+    pkgs.claude-code
     # .md, .qmd notes/notebooks
     pkgs.quarto
     # Typesetting programs
@@ -128,6 +131,13 @@
     # speedtest
     pkgs.ookla-speedtest
     pkgs.rclone
+    # Cloud development
+    pkgs.google-cloud-sdk
+    pkgs.firebase-tools
+    pkgs.gh
+    pkgs.railway
+    # Infrastracture as code
+    pkgs.terraform
     # shell utilities
     pkgs.tree
     pkgs.wget
