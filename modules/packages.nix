@@ -99,6 +99,7 @@
     pkgs.opencode
     pkgs.codex
     pkgs.claude-code
+    pkgs.zeroclaw
     # .md, .qmd notes/notebooks
     pkgs.quarto
     # Typesetting programs
@@ -139,6 +140,9 @@
     # Infrastracture as code
     pkgs.terraform
     # shell utilities
+    pkgs.sops
+    pkgs.age
+    pkgs.direnv
     pkgs.tree
     pkgs.wget
     pkgs.scc
