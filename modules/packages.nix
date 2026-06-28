@@ -70,6 +70,10 @@
     pkgs.lua-language-server
     # Python
     pkgs.pyright
+    # Typescritp
+    pkgs.typescript
+    # Node js
+    pkgs.nodejs
     # Zig
     pkgs.zls
     # Typst
@@ -99,7 +103,6 @@
     pkgs.opencode
     pkgs.codex
     pkgs.claude-code
-    pkgs.zeroclaw
     # .md, .qmd notes/notebooks
     pkgs.quarto
     # Typesetting programs
@@ -116,6 +119,7 @@
     # VPN
     pkgs.wireguard-tools
     pkgs.openvpn
+    pkgs.netbird
     # Syncing
     pkgs.syncthing
     # Static website generator
@@ -135,6 +139,8 @@
     # Cloud development
     pkgs.google-cloud-sdk
     pkgs.firebase-tools
+    pkgs.awscli2
+    pkgs.aws-cdk-cli
     pkgs.gh
     pkgs.railway
     # Infrastracture as code

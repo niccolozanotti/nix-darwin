@@ -2,6 +2,7 @@
   homebrew = {
     enable = true;
     brews = [
+      "zeroclaw"
       "llvm"
       "clang-format"
       "libomp"
